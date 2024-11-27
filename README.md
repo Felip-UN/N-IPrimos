@@ -1,9 +1,30 @@
 # N-IPrimos
 ## Descripcion
-El pseudocodigo para verificar si un numero es primo
+Plantear el algoritmo para obtener los números primos hasta n
 ### Aclaraciones
-Como tal matematicamente no exite una funcion que nos pueda dar como tal numeros primos pero como dice la descripcion solo queremos verificar si X(El numero que escribamos) es primo
-y lo que tengo planeado es una solucion no definitiva que podra realizar lo definido pero no es 100% veridica
+Queremos verificar si X(El numero que escribamos) es primo y lo que tengo planeado esta relacionado con un metodo que nos enseño un profesor de matematicas que MUY posiblemente sea correcto por lo que estaria mas enfocado en valores grandes
 
 
-Mas adelante si tengo planeado que sirva con cualquier valor pero por ahora verificare como sirve la solucion preliminar
+El planteamiento seria asi
+## Pseudocodigo
+```python
+n : entero >= 2
+Pi = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 37, 41, 43, 47] #Lista con los primeros 15 numeros primos
+
+numeros_N = 2
+
+elif n > 47
+  ejecutar un bucle mientras numeros_N < n ,si numeros_N >= n rompe el bucle
+    if numeros_N da modulo 0 por algun valor de la lista Pi
+      numeros_N += 1
+    else
+      agregar ese numero a la lista Pi
+      numeros_N += 1
+  print (Pi)
+else
+  eliminar cualquier valor de la lista Pi > n
+  print (Pi)
+
+´´´
+
+Si un número pasa la prueba de no ser divisible por los primeros 15 primos, es un buen indicio de que es primo, aunque no garantiza con certeza que lo sea 
