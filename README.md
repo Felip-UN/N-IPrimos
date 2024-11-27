@@ -29,6 +29,7 @@ else
 Si un número pasa la prueba de no ser divisible por los primeros 15 primos, es un buen indicio de que es primo, aunque no garantiza con certeza que lo sea 
 
 ## Diagrama de flujo
+```mermaid
 ---
 config:
   layout: fixed
@@ -67,3 +68,4 @@ flowchart TD
     n16@{ shape: text}
     n17@{ shape: text}
     classDef Sky stroke-width:1px, stroke-dasharray:none, stroke:#374D7C, fill:#E2EBFF, color:#374D7C
+```
